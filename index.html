@@ -23,8 +23,16 @@
 </head>
 <body>
   <script>
+    var snd = document.createElement("audio");
+    snd.src="audio/background_song.mp3";
+    snd.loop=true;
+    snd.controls=true;
+    document.body.appendChild(snd);
+  </script>
+  <script>
     alert("Witaj na mojej stronie!")
-    </script>    
+  </script>  
+ 
 <!-- Begin Wrapper -->
 <div id="wrapper">
   <div class="wrapper-top"></div>
